@@ -12,6 +12,10 @@ box-sizing: border-box;
     text-indent: 100px;
 }
 
+.iconColor{
+    color: #2ecc71;
+}
+
 .container-fluid{
     min-height: 100%;   
 }

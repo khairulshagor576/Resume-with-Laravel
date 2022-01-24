@@ -13,7 +13,7 @@
                         <input type="text" class="form-control mt-2" id="inputName">
                     </div>
                     <div class="col-md-6">
-                        <label for="inputEmail">Your Email</label>
+                        <label for="inputEmail">Your Email *</label>
                         <input type="email" class="form-control mt-2" id="inputEmail" required>
                     </div>
                     <div class="col-md-12">
@@ -31,20 +31,27 @@
              <div class="col-sm-3 text-center">
                <ul class="list-unstyled">
                    <li>
-                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                        <i class="fa fa-map-marker iconColor" aria-hidden="true"></i>
                         <p>Jhilpar,Perebag,Mirpur,Dhaka.</p>
                    </li>
                    <li>
-                        <i class="fa fa-mobile" aria-hidden="true"></i>
+                        <i class="fa fa-phone iconColor" aria-hidden="true"></i>
                         <p>+8801703302740</p>
                    </li>
                    <li>
-                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                    <i class="fa fa-envelope iconColor" aria-hidden="true"></i>
                         <p>khairulsagor567@gmail.com</p>
                    </li>
                </ul>
              </div>
             </div>
+        </div>
+        <div class="text-center">
+          <a href="https://twitter.com/khairulsagor567" target="_blank"><i class="fab fa-twitter fa-2x iconColor"></i>
+          <a href="https://github.com/khairulshagor576" target="_blank"><i class="fab fa-github fa-2x mx-3 iconColor"></i>
+          <a href="https://www.facebook.com/khairulshagor567/" target="_blank"><i class="fab fa-facebook fa-2x iconColor"></i>
+          <a href="https://www.linkedin.com/in/khairulshagor/" target="_blank"><i class="fab fa-linkedin fa-2x mx-3 iconColor"></i>
+          </a>
         </div>
     </x-slot>
 </x-layout>
