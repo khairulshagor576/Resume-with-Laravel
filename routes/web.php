@@ -8,7 +8,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('home');
-});
+})->name('home');
 
 Route::get('/service',[serviceController::class,'show']);
 Route::get('/skill',[skillController::class,'show']);

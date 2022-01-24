@@ -4,9 +4,9 @@
         <h5 class="text-white mt-3">Md. Khairul Islam</h5>
     </div>
     <nav class="nav text-center d-flex flex-column">
-     <a href="{{ url('/') }}"  class="nav-link">Home</a>
-     <a href="{{ url('/service') }} "  class="nav-link">Service</a>
-     <a href="{{ url('/skill') }}"  class="nav-link">Skill</a>
-     <a href="{{ url('/contact') }}"  class="nav-link">Contact</a>
+     <a href="{{ url('/') }}"  class="nav-link {{ Request::routeIs('home')? 'active':"" }}">Home</a>
+     <a href="{{ url('/service') }} "  class="nav-link {{ Request::is('service')? 'active':"" }}">Services</a>
+     <a href="{{ url('/skill') }}"  class="nav-link {{ Request::is('skill')? 'active':"" }}">Skill</a>
+     <a href="{{ url('/contact') }}"  class="nav-link {{ Request::is('contact')? 'active':"" }}">Contact</a>
     </nav>
 </div>
